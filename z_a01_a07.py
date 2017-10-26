@@ -9,9 +9,6 @@ Run python scripts from a01 to a07.
 
 :Last update: Oct 2, 2017
 
-
-
-
 """
 # Imports
 from __future__ import print_function, unicode_literals, division, absolute_import
