@@ -101,11 +101,11 @@ def main(pth, log):
 if __name__ == "__main__":
     # f606w band
     # pth1 = 'galfit_outputs_f6/residual/f6*.fits'
-    # log1 = 'fit_expdisk_devauc_f6.log'
+    # log1 = 'fit_devauc_f6.log'
     # main(pth1, log1)
     # print(('band: f606w'))
-    #  # f814w band
+    # f814w band
     pth2 = 'galfit_outputs_f8/residual/f8*.fits'
-    log2 = 'fit_expdisk_devauc_f8.log'
+    log2 = 'fit_devauc_f8.log'
     main(pth2, log2)
     print(('band: f814w'))
