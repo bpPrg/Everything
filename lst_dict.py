@@ -109,9 +109,9 @@ def eg4():
     print("d = {}".format(d))
 
 def eg5():
-    d = {v: k for k, v
-                    in enumerate(list(string.ascii_lowercase))
-                    if k > 5 if k < 10}
+    d = {v: i for i, v
+                    in enumerate(string.ascii_lowercase)
+                    if i > 5 if i < 10}
     
     print("d = {}".format(d))
 
@@ -128,7 +128,7 @@ def eg6():
 
 def main():
     """Run main function."""
-    eg6()
+    eg5()
 
 if __name__ == "__main__":
     main()
